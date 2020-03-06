@@ -22,7 +22,14 @@ pieceNames.forEach((piece, index) =>{
 }
 
 
+function reset(){
+	console.log('reset the drop zones');
+	for (let i=0; i < dropZones.length; i++){
+		if(dropZones[i].childNodes.length != 0)
+		puzzleFirstContainer.appendChild(dropZones[i].firstChild);
 
+	}
+}
 
 
 
@@ -69,6 +76,8 @@ function allowDrop(event) {
 
 
 puzzleButtons.forEach(button => button.addEventListener('click', changeImageSet));
+
+puzzleButtons.forEach(button => button.addEventListener('click', reset));
 
 dropPuzzle.forEach(piece => piece.addEventListener('dragstart', allowDrag));
 
