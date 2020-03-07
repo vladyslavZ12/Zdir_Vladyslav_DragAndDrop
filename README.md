@@ -1,4 +1,4 @@
-##Drag And Drop puzzle game
+# Drag And Drop puzzle game
 
 This is a js based Puzzle project (game) consisting out of four diferent puzzle Boards with four puzzles in each. The game is based on Drag and Drop 
 
