@@ -1,27 +1,18 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
-{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;}
-\margl1440\margr1440\vieww26260\viewh14080\viewkind0
-\deftab720
-\pard\pardeftab720\sl320\partightenfactor0
+ Drag and Drop Bug Fix Steps 
+ 
+1.the first Bug (Drop Zone): 
 
-\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Drag and Drop Bug Fix Steps\
-\
-1.the first Bug (Drop Zone): \
-\
-* Check if Drop Zones are full or empty;\
-* If its empty (drop a console.log just to see if code is fine) append the currentImage;\
-* with a else if statement check if it is full;\
-* If full set the firstchild to a variable;\
-* append the currentImage;\
-* append the variable to puzzleFirstContainer.\
-\
-2. the second bug (reset):\
-\
-* add a event listener that looks for click event in puzzleButtons with a function reset;\
-* in function reset use a loop to check all the pieces; \
-* with a if statement check if the dropZone is full;\
-* if it is full append child to puzzleFirstContainer.\
+    * Check if Drop Zones are full or empty;
+    * If its empty (drop a console.log just to see if code is fine) append the currentImage;
+    * with a else if statement check if it is full;
+    * If full set the firstchild to a variable;
+    * append the currentImage;
+    * append the variable to puzzleFirstContainer.
+
+2. the second bug (reset):
+
+    * add a event listener that looks for click event in puzzleButtons with a function reset;
+    * in function reset use a loop to check all the pieces; 
+    * with a if statement check if the dropZone is full;
+    * if it is full append child to puzzleFirstContainer.
 }
