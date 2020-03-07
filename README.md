@@ -8,6 +8,6 @@ This is a baic HTML / CSS / JavaScript build. Clone the file to any location of 
 ### Prerequisities
 Editor and Git
 
-## Authors
+## Author
 
 Vladyslav Zdir
